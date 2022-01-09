@@ -1,0 +1,39 @@
+.navbar{
+  background-color: #f7db5c;
+  padding: 10px;
+}
+.nav-item{
+  padding-right: : 10px;
+  padding-left: 10px;
+  border-right: 2px solid #d9c050;
+}
+
+.space{
+  padding-left: 15px;
+  background: #F2F2F2;
+  background-image: url("rotaract.png");
+  background-repeat: no-repeat;
+  background-size: 1366px 390px;
+  padding-bottom: 15px;
+  color: grey;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.container{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #f7db5c;
+}
+
+.navbar-brand{
+  color: red;
+}
+
+.h2{
+  padding-left: 15px;
+}
+
+.jumbotron p,h1{
+  color: orange;
+}
