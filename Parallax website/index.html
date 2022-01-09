@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="parallax.css">
+    <meta charset="utf-8">
+    <title>Parallax Website</title>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Parallax</a>
+      <ul>
+        <li><a href="parallax.html" class="active">Home</a></li>
+        <li><a href="#sec">About</a></li>
+        <li><a href="#">Work</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </header>
+    <section>
+      <img src="stars.png" alt="" id="stars">
+      <img src="moon.png" alt="" id="moon">
+      <img src="mountains_behind.png" alt="" id="mb">
+      <h2 id="txt">Let there be Carnage!</h2>
+      <a href="#sec" id="btn">Explore</a>
+      <img src="mountains_front.png" alt="" id="mf">
+    </section>
+    <div class="sec" id="sec">
+      <h2>Parallax Scrolling Effects</h2>
+      <p>In recent years, parallax has become a trend in websites and mobile apps. Parallax scrolling effect is a technique where the background of a website scrolls at a slower pace than the foreground. The purpose is to achieve an illusion of depth within the 2d scene of a website.Parallax scrolling is a web site trend where the background content (i.e. an image) is moved at a different speed than the foreground content while scrolling. Click on the links below to see the difference between a website with and without parallax scrolling.<br><br><br>To make a parallax effect, every element is moving at a different pace and time. That is how we achieve the illusion of depth, even though we are scrolling in 2D. The rule of thumb moves the “furthest” objects the least, like how it looks in the real world.<br><br><br>Use a container element and add a background image to the container with a specific height. Then use the background-attachment: fixed to create the actual parallax effect. The other background properties are used to center and scale the image perfectly. <br><br><br>In recent years, parallax has become a trend in websites and mobile apps. Parallax scrolling effect is a technique where the background of a website scrolls at a slower pace than the foreground. The purpose is to achieve an illusion of depth within the 2d scene of a website.Parallax scrolling is a web site trend where the background content (i.e. an image) is moved at a different speed than the foreground content while scrolling. Click on the links below to see the difference between a website with and without parallax scrolling.To make a parallax effect, every element is moving at a different pace and time. That is how we achieve the illusion of depth, even though we are scrolling in 2D. The rule of thumb moves the “furthest” objects the least, like how it looks in the real world.Use a container element and add a background image to the container with a specific height. Then use the background-attachment: fixed to create the actual parallax effect. The other background properties are used to center and scale the image perfectly</p>
+    </div>
+    <script>
+      let stars=document.getElementById('stars');
+      let moon=document.getElementById('moon');
+      let mountains_behind=document.getElementById('mb');
+      let mountains_front=document.getElementById('mf');
+      let txt=document.getElementById('txt');
+      let btn=document.getElementById('btn');
+      let header=document.querySelector('header');
+
+      window.addEventListener('scroll',function () {
+        let value=window.scrollY;
+        stars.style.left = value*0.5 + 'px';
+        moon.style.top = value*1.05 + 'px';
+        mountains_behind.style.top = value*0.5 + 'px';
+        mountains_front.style.top = value*0 + 'px';
+        txt.style.marginRight = value*4.4 + 'px';
+        txt.style.marginTop = value*1.5 + 'px';
+        btn.style.marginTop = value*6 + 'px';
+        header.style.top = value*0.5 + 'px';
+      })
+    </script>
+  </body>
+</html>
