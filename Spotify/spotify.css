@@ -1,0 +1,368 @@
+body{
+  background-color: antiquewhite;
+}
+
+*{
+}
+
+.topping {
+  margin-top: 21px;
+  text-align: center;
+  font-family: Helvetica;
+  letter-spacing: 0.002em;
+  color: black;
+}
+
+#solid{
+  margin-top: 20px;
+  border-top: 1px solid #606060;
+}
+
+#separator{
+  align-items: center;
+  text-align: center;
+}
+
+#message{
+  position: relative;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.but1 {
+  text-align: center;
+  align-items: center;
+  margin-top: -7px;
+}
+
+.but1 .btn{
+  text-decoration: none;
+  background-color: #3B5998;
+  border-radius: 500px;
+  padding-right: 85px;
+  padding-left: 85px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+.but1 .btn #fb{
+  text-decoration: none;
+  font-size: 90%;
+  color: white;
+  letter-spacing: 0.15em;
+  font-weight: 700;
+}
+
+#fbimg{
+  padding-right: 10px;
+  height: 23px;
+  width: 35px;
+}
+
+.but2 {
+  padding-top: 17px;
+  text-align: center;
+  align-items: center;
+  margin-top: -7px;
+}
+
+.but2 .btn{
+  text-decoration: none;
+  font-size: 100%;
+  background-color: black;
+  border-radius: 500px;
+  padding-right: 104px;
+  padding-left: 104px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+.but2 .btn #apple{
+  text-decoration: none;
+  font-size: 90%;
+  color: white;
+  letter-spacing: 0.15em;
+  font-weight: 700;
+}
+
+#appleimg{
+  margin-right: 17px;
+  height: 15px;
+  width: 17px;
+}
+
+.but3 {
+  padding-top: 17px;
+  text-align: center;
+  align-items: center;
+  margin-top: -7px;
+}
+
+.but3 .btn{
+  text-decoration: none;
+  font-size: 100%;
+  background-color: white;
+  border: 2px solid grey;
+  border-color: grey;
+  border-radius: 500px;
+  padding-right: 97px;
+  padding-left: 97px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+.but3 .btn #ggl{
+  text-decoration: none;
+  font-size: 90%;
+  color: grey;
+  letter-spacing: 0.15em;
+  font-weight: 700;
+}
+
+#gglimg{
+  margin-right: 17px;
+  height: 14px;
+  width: 14px;
+}
+
+.but4 {
+  padding-top: 17px;
+  text-align: center;
+  align-items: center;
+  margin-top: -7px;
+}
+
+.but4 .btn{
+  text-decoration: none;
+  font-size: 100%;
+  background-color: white;
+  border: 2px solid grey;
+  border-color: grey;
+  border-radius: 500px;
+  padding-right: 77px;
+  padding-left: 77px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+.but4 .btn #pn{
+  text-decoration: none;
+  font-size: 90%;
+  color: grey;
+  letter-spacing: 0.15em;
+  font-weight: 700;
+}
+
+.but1 .btn:hover{
+  opacity: 0.9;
+  transition: 0.3s;
+}
+
+
+.but2 .btn:hover{
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.but3 .btn:hover{
+  background-color: grey;
+  transition: 0.3s;
+}
+
+.but3 :hover #ggl{
+  color: white;
+  transition: 0.3s;
+}
+
+.but4 .btn:hover{
+  background-color: grey;
+  transition: 0.3s;
+}
+
+.but4 :hover #pn{
+  color: white;
+  transition: 0.3s;
+}
+
+.sep{
+  padding-left: 34%;
+}
+
+#separator {
+   align-items: center;
+   width: 49%;
+   text-align: center;
+   border-bottom: 1px solid #d3d3d3;
+   line-height: 0.1em;
+   margin-top: 21px;
+}
+
+#separator span {
+  font-size: 12px;
+  font-weight: 700;
+  background:#fff;
+  padding:0 10px;
+}
+
+.sptfy-form{
+  position: relative;
+  align-items: center;
+}
+
+.sptfy{
+  margin-left: 33.9%;
+}
+
+.sptfy-form p{
+  font-weight: 700;
+}
+
+#inp{
+  margin-top: -10px;
+  padding-left: 1px;
+}
+
+.pswd{
+  padding-top: 12px;
+}
+
+#inp-box{
+  width: 49%;
+  padding-left: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border: 1px solid #d3d3d3;
+}
+
+#inp-box:focus{
+  outline: none;
+  border-color: #919191;
+}
+
+.frgt-pswd{
+  margin-top: 17px;
+  margin-left: 33.9%;
+}
+
+#inp-box::placeholder{
+  color: #4f4e4e;
+  font-weight: 400;
+}
+
+#forgot{
+  text-decoration: none;
+  color: #616467;
+  font-weight: 500;
+}
+
+#forgot:hover{
+  color: #1DB954;
+}
+
+.checkbox{
+  display: inline;
+}
+
+.checkdiv{
+  margin-left: 33.9%;
+  margin-top: 35px;
+}
+
+.checkbox label{
+  color: #616467;
+  font-weight: 500;
+}
+
+#lbl{
+  display: inline-block;
+  margin-left: 5px;
+}
+
+input#remember{
+  appearance: none;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #b7b7b7;
+  border-radius: 3px;
+}
+
+input#remember:hover{
+  border: 1px solid #1DB954;
+}
+
+input#remember:active,input#remember:focus{
+  background-color: #15883E;
+}
+
+.but5 {
+  margin-left: 52%;
+  margin-top: -24px;
+}
+
+
+.but5 #loginbtn{
+  text-decoration: none;
+  font-size: 90%;
+  color: white;
+  letter-spacing: 0.15em;
+  font-weight: 700;
+  text-decoration: none;
+  background-color: #15883E;
+  border-radius: 500px;
+  padding-right: 70px;
+  padding-left: 70px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+#loginbtn:hover{
+  background-color: #1DB954;
+  transition: 0.3s;
+}
+
+#solid2{
+  margin-left: 33.9%;
+  width: 32.2%;
+  margin-top: 27px;
+  border-top: 1px solid #606060;
+}
+
+.signup-message{
+  margin-top: 33px;
+  align-items: center;
+  text-align: center;
+}
+
+.signup-message p{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.but6 {
+  margin-top: 30px;
+  text-align: center;
+  align-items: center;
+}
+
+.but6 #signup{
+  text-decoration: none;
+  font-size: 90%;
+  color: grey;
+  letter-spacing: 0.15em;
+  font-weight: 700;
+  text-decoration: none;
+  border: 2px solid grey;
+  border-color: grey;
+  border-radius: 500px;
+  padding-right: 129px;
+  padding-left: 129px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.but6 #signup:hover{
+  background-color: grey;
+  transition: 0.3s;
+  color: white;
+}
